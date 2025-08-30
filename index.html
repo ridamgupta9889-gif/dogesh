@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming World</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header .logo h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        #home {
+            background-color: #e8f5e9;
+        }
+
+        #products {
+            background-color: #fffde7;
+        }
+
+        #contact {
+            background-color: #f1f8e9;
+        }
+
+        /* Product Section */
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .product {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 30%;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product h3 {
+            color: #4CAF50;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Farming World</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Farming World</h2>
+        <p>We are dedicated to sustainable farming practices and providing fresh, organic produce directly from the farm to your table.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <h3>Organic Vegetables</h3>
+                <p>Fresh and healthy, grown without pesticides.</p>
+            </div>
+            <div class="product">
+                <h3>Free-Range Eggs</h3>
+                <p>Healthy, hormone-free eggs from our happy chickens.</p>
+            </div>
+            <div class="product">
+                <h3>Fresh Fruits</h3>
+                <p>Locally grown fruits packed with nutrients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@farmingworld.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Farming World. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
